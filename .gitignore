@@ -1,0 +1,7 @@
+.env
+node_modules/
+# Keep the embedding vectors: the deployed app can't write this file, so it ships with the repo.
+data/.cache/*
+!data/.cache/embeddings.json
+evaluation/results.*
+.DS_Store

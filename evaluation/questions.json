@@ -1,0 +1,413 @@
+[
+  {
+    "id": "q01",
+    "category": "Basic RAS",
+    "question": "What is IEEE RAS?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "ieee-ras-official",
+      "ieee-ras-mission"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q02",
+    "category": "Basic RAS",
+    "question": "What is the mission of IEEE RAS?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "ieee-ras-mission"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q03",
+    "category": "Basic RAS",
+    "question": "What is the difference between robotics and automation according to IEEE RAS?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "ieee-ras-mission"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q04",
+    "category": "VIT-specific",
+    "question": "What is IEEE RAS VIT Chennai?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "vitc-ieee-societies",
+      "rascade-sponsormyevent",
+      "vitc-ras-activities-page"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q05",
+    "category": "VIT-specific",
+    "question": "What does RAS VIT Chennai do?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "rascade-sponsormyevent",
+      "roverx-linkedin",
+      "hackverse-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q06",
+    "category": "VIT-specific",
+    "question": "Where can I find official activity reports of the RAS chapter at VIT Chennai?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "vitc-ras-activities-page"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q07",
+    "category": "Events",
+    "question": "What events has RAS VIT Chennai conducted?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "vitc-ras-chapter-initiative-pdf",
+      "roverx-linkedin",
+      "hackverse-devfolio",
+      "rascade-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q08",
+    "category": "Events",
+    "question": "What workshops has RAS conducted?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "roverx-linkedin",
+      "vitc-ras-chapter-initiative-pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q09",
+    "category": "Events",
+    "question": "Tell me about RAS hackathons.",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "hackverse-devfolio",
+      "rascade-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q10",
+    "category": "Events",
+    "question": "Tell me about HackVerse.",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "hackverse-devfolio"
+    ],
+    "notes": "Should mention 1-2 Sep 2026, TechnoVIT 2026, three sprints, teams of 3-5."
+  },
+  {
+    "id": "q11",
+    "category": "Events",
+    "question": "What is RAScade?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "rascade-devfolio",
+      "rascade-website"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q12",
+    "category": "Events",
+    "question": "When was the IoT in Robotics session held?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "vitc-ras-chapter-initiative-pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q13",
+    "category": "Events",
+    "question": "What is RoverX?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "roverx-linkedin"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q14",
+    "category": "Robotics",
+    "question": "What technologies are useful for robotics?",
+    "expected_behavior": "answer_general",
+    "expected_sources": [
+      "roverx-linkedin"
+    ],
+    "notes": "General knowledge, clearly labelled; may mention ESP32 from RoverX."
+  },
+  {
+    "id": "q15",
+    "category": "Robotics",
+    "question": "What technologies are relevant to RAS activities?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "roverx-linkedin",
+      "rascade-sponsormyevent"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q16",
+    "category": "AI/ML",
+    "question": "What is the connection between AI/ML and robotics?",
+    "expected_behavior": "answer_general",
+    "expected_sources": [
+      "ieee-ras-official"
+    ],
+    "notes": "General knowledge; may cite Robot Learning transactions."
+  },
+  {
+    "id": "q17",
+    "category": "AI/ML",
+    "question": "What AI or ML related activities are associated with RAS VIT Chennai?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "rascade-sponsormyevent",
+      "hackverse-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q18",
+    "category": "Beginner",
+    "question": "I'm a first-year CSE student. How can I get started with RAS?",
+    "expected_behavior": "answer_general",
+    "expected_sources": [
+      "ieee-ras-official",
+      "roverx-linkedin"
+    ],
+    "notes": "Suggestions must be labelled as not official."
+  },
+  {
+    "id": "q19",
+    "category": "Beginner",
+    "question": "How can a beginner prepare for RAS activities?",
+    "expected_behavior": "answer_general",
+    "expected_sources": [],
+    "notes": "Suggestion, not an official requirement."
+  },
+  {
+    "id": "q20",
+    "category": "Beginner",
+    "question": "Why should a student consider joining RAS?",
+    "expected_behavior": "answer_general",
+    "expected_sources": [
+      "ieee-ras-official"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q21",
+    "category": "Projects",
+    "question": "Suggest a beginner AI/robotics project.",
+    "expected_behavior": "answer_general",
+    "expected_sources": [],
+    "notes": "Must be labelled an AI-generated suggestion, not an official RAS project."
+  },
+  {
+    "id": "q22",
+    "category": "Projects",
+    "question": "What could I build with an ESP32 after a RoverX-style workshop?",
+    "expected_behavior": "answer_general",
+    "expected_sources": [
+      "roverx-linkedin"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q23",
+    "category": "Source verification",
+    "question": "Which source says HackVerse: Into the Web is part of TechnoVIT 2026?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "hackverse-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q24",
+    "category": "Source verification",
+    "question": "How long is RAScade and when was it held?",
+    "expected_behavior": "answer_conflict",
+    "expected_sources": [
+      "rascade-devfolio",
+      "rascade-linktree",
+      "rascade-sponsormyevent"
+    ],
+    "notes": "Sources disagree (current Devfolio: one day, 8 Nov 2024; Linktree: 36h; sponsorship listing: 48h and 36h). The answer must say so."
+  },
+  {
+    "id": "q25",
+    "category": "Unanswerable",
+    "question": "What is the current RAS president?",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": ""
+  },
+  {
+    "id": "q26",
+    "category": "Unanswerable",
+    "question": "What event is happening next month?",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": ""
+  },
+  {
+    "id": "q27",
+    "category": "Unanswerable",
+    "question": "How many members does RAS currently have?",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": ""
+  },
+  {
+    "id": "q28",
+    "category": "Unanswerable",
+    "question": "What placement package does RAS guarantee?",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": ""
+  },
+  {
+    "id": "q29",
+    "category": "Unanswerable",
+    "question": "Which company will recruit RAS members?",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": ""
+  },
+  {
+    "id": "q30",
+    "category": "Unanswerable",
+    "question": "What is the next RAS event?",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": ""
+  },
+  {
+    "id": "q31",
+    "category": "Unanswerable",
+    "question": "Tell me about DataDash.",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": "No verified source found yet. Update if one is added."
+  },
+  {
+    "id": "q32",
+    "category": "Unanswerable",
+    "question": "Tell me about GLYTCH.",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": "No verified RAS VIT Chennai source found yet."
+  },
+  {
+    "id": "q33",
+    "category": "Unanswerable",
+    "question": "What is the weather in Paris today?",
+    "expected_behavior": "refuse",
+    "expected_sources": [],
+    "notes": "Off-topic: should politely decline and explain scope."
+  },
+  {
+    "id": "q34",
+    "category": "Multi-document",
+    "question": "What types of technical activities has RAS VIT Chennai conducted?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "rascade-sponsormyevent",
+      "roverx-linkedin",
+      "vitc-ras-chapter-initiative-pdf",
+      "hackverse-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q35",
+    "category": "Multi-document",
+    "question": "Compare RoverX and HackVerse.",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "roverx-linkedin",
+      "hackverse-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q36",
+    "category": "Multi-document",
+    "question": "Which RAS VIT Chennai events happened as part of TechnoVIT?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "roverx-linkedin",
+      "hackverse-devfolio"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q37",
+    "category": "VIT-specific",
+    "question": "Is IEEE RAS VIT Chennai recruiting? How do I apply?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "ieeerasvitc-recruitment-site"
+    ],
+    "notes": "Recruitment 2026-27, 4 departments, limited intake, login with @vitstudent.ac.in. Must NOT invent department names or deadlines."
+  },
+  {
+    "id": "q38",
+    "category": "Unanswerable",
+    "question": "What are the four RAS departments and when is the recruitment deadline?",
+    "expected_behavior": "refuse",
+    "expected_sources": [
+      "ieeerasvitc-recruitment-site"
+    ],
+    "notes": "Only the count of departments is public; names and deadline are behind login. A partial answer (4 departments, cannot verify names/deadline) is correct."
+  },
+  {
+    "id": "q39",
+    "category": "Events",
+    "question": "When was HackVerse held and what were the prizes?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "hackverse-devfolio"
+    ],
+    "notes": "1-2 Sep 2026; USD 3,100 pool."
+  },
+  {
+    "id": "q40",
+    "category": "Source verification",
+    "question": "Who were the RAS coordinators at the 2019 IEEE orientation at VIT Chennai?",
+    "expected_behavior": "answer",
+    "expected_sources": [
+      "vtools-vitc-inauguration-2019"
+    ],
+    "notes": "Prof. Suchetha (faculty) and Siva Shankar (student), in 2019. Must not present them as current office bearers."
+  },
+  {
+    "id": "q41",
+    "category": "Multi-document",
+    "question": "Tell me about RAScade. Also, how long was it?",
+    "expected_behavior": "answer_conflict",
+    "expected_sources": [
+      "rascade-devfolio",
+      "rascade-linktree",
+      "rascade-sponsormyevent"
+    ],
+    "notes": "Follow-up handling and conflict reporting."
+  }
+]

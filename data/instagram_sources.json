@@ -1,0 +1,13 @@
+{
+  "_instructions": "Add public Instagram posts you can see yourself. Do not scrape Instagram or use private content. One object per post in 'posts'. Required: url, caption_summary (your own short summary of what the post says). Optional: id, date, event_name, topic (about|events|robotics|automation|AI|machine_learning|embedded|IoT|projects|research|hackathon|workshop|competition|recruitment|learning). Then run: python scripts/ingest.py",
+  "posts": [
+    {
+      "id": "ig-rascade-profile",
+      "url": "https://www.instagram.com/rascade.in/",
+      "date": null,
+      "event_name": "RAScade",
+      "topic": "hackathon",
+      "caption_summary": "Public account bio for RAScade (@rascade.in): it describes RAScade as a hackathon by the IEEE Robotics and Automation Society VIT Chennai, tags the chapter account @ieeerasvitc, and uses the tagline 'Learn Try Expertise'."
+    }
+  ]
+}

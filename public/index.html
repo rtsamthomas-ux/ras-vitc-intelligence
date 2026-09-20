@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>IEEE RAS Intelligence</title>
+  <meta name="description" content="Ask anything about the IEEE Robotics & Automation Society student chapter at VIT Chennai. Answers come from public sources, with citations." />
+  <meta name="theme-color" content="#0d0722" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23140a33'/%3E%3Ccircle cx='36' cy='28' r='14' fill='%23f3ecd8'/%3E%3Ccircle cx='42' cy='24' r='12' fill='%23140a33'/%3E%3Ccircle cx='18' cy='44' r='2' fill='%23fff'/%3E%3C/svg%3E" />
+  <link rel="preload" href="/syne-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="intro-on">
+  <h1 class="sr-only">IEEE RAS Intelligence</h1>
+  <canvas id="sky" aria-hidden="true"></canvas>
+
+  <!-- 3D title: flies in large, then settles at the top of the page -->
+  <div id="title" aria-hidden="true"><div class="word" id="word"></div></div>
+
+  <main id="ui" aria-label="Ask IEEE RAS Intelligence">
+    <section id="answer" class="glass" hidden aria-live="polite">
+      <header>
+        <p id="asked"></p>
+        <div class="tools">
+          <button id="copy" type="button" title="Copy answer" aria-label="Copy answer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="3"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+          </button>
+          <button id="close" type="button" title="Close (Esc)" aria-label="Close answer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+      </header>
+      <div id="reply"></div>
+      <div id="srcs"></div>
+    </section>
+
+    <div id="samples">
+      <ul id="questions" aria-label="Sample questions"></ul>
+      <button id="shuffle" class="glass" type="button" aria-label="Show other sample questions" title="Shuffle">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h3.5c2 0 3.2 1 4.3 2.7l2.4 4.1c1 1.7 2.3 2.7 4.3 2.7H21M17.5 13.5l3.5 3-3.5 3M3 17h3.5c1.2 0 2.1-.4 2.8-1.1M13.7 8.1c.7-.7 1.6-1.1 2.8-1.1H21M17.5 4l3.5 3-3.5 3"/></svg>
+      </button>
+    </div>
+
+    <form id="ask" class="glass" autocomplete="off">
+      <input id="q" maxlength="600" enterkeyhint="send" placeholder="Ask about IEEE RAS, VIT Chennai…" aria-label="Your question" />
+      <kbd id="slash" aria-hidden="true">/</kbd>
+      <button type="submit" aria-label="Ask" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </form>
+  </main>
+
+  <canvas id="cursor" aria-hidden="true"></canvas>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

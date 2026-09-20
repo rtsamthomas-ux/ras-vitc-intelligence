@@ -1,0 +1,15 @@
+{
+  "name": "ras-vitc-intelligence",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Source-grounded RAG assistant for IEEE RAS VIT Chennai. Node.js, zero dependencies.",
+  "type": "module",
+  "engines": { "node": ">=18.18" },
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node --test",
+    "eval": "node scripts/eval.js",
+    "eval:full": "node scripts/eval.js --full"
+  }
+}
