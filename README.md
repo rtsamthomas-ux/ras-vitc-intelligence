@@ -2,9 +2,6 @@
 
 > Ask anything about the IEEE Robotics & Automation Society student chapter at VIT Chennai, and get answers you can check.
 
-**Live app:** https://ras-vitc-intelligence.vercel.app  
-**Repository:** https://github.com/balwinfernandes/ras-vitc-intelligence  
-**Author:** Balwin Fernandes, first-year B.Tech CSE Core, VIT Chennai
 
 An independent student project, not an official IEEE, IEEE RAS or VIT Chennai product.
 
